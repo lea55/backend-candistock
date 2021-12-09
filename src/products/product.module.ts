@@ -18,7 +18,8 @@ import { ListPriceService } from './services/list-price.service';
 @Module({
     controllers: [ProductController, CategoriesIngredientController, ControlStockController,CategoriesProductController,IngredientController,StockMovementController,ListPriceController],
     providers: [ProductService, CategoriesIngredientService, ControlStockService,CategoriesProductService,IngredientService,StockMovementService,ListPriceService],
-    exports:[ProductService]
+    exports:[ProductService],
+    
   })
   export class ProductModule {}
   
